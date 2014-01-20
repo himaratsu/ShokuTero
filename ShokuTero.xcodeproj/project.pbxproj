@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20151C1E188D70C9007EAE73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20151C1D188D70C9007EAE73 /* Foundation.framework */; };
+		20151C20188D70C9007EAE73 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20151C1F188D70C9007EAE73 /* CoreGraphics.framework */; };
+		20151C22188D70C9007EAE73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20151C21188D70C9007EAE73 /* UIKit.framework */; };
+		20151C28188D70C9007EAE73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20151C26188D70C9007EAE73 /* InfoPlist.strings */; };
+		20151C2A188D70C9007EAE73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20151C29188D70C9007EAE73 /* main.m */; };
+		20151C2E188D70C9007EAE73 /* STOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20151C2D188D70C9007EAE73 /* STOAppDelegate.m */; };
+		20151C31188D70C9007EAE73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20151C2F188D70C9007EAE73 /* Main.storyboard */; };
+		20151C34188D70C9007EAE73 /* STOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20151C33188D70C9007EAE73 /* STOViewController.m */; };
+		20151C36188D70C9007EAE73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20151C35188D70C9007EAE73 /* Images.xcassets */; };
+		20151C3D188D70C9007EAE73 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20151C3C188D70C9007EAE73 /* XCTest.framework */; };
+		20151C3E188D70C9007EAE73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20151C1D188D70C9007EAE73 /* Foundation.framework */; };
+		20151C3F188D70C9007EAE73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20151C21188D70C9007EAE73 /* UIKit.framework */; };
+		20151C47188D70C9007EAE73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20151C45188D70C9007EAE73 /* InfoPlist.strings */; };
+		20151C49188D70C9007EAE73 /* ShokuTeroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20151C48188D70C9007EAE73 /* ShokuTeroTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20151C40188D70C9007EAE73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20151C12188D70C8007EAE73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20151C19188D70C9007EAE73;
+			remoteInfo = ShokuTero;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20151C1A188D70C9007EAE73 /* ShokuTero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShokuTero.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20151C1D188D70C9007EAE73 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		20151C1F188D70C9007EAE73 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		20151C21188D70C9007EAE73 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		20151C25188D70C9007EAE73 /* ShokuTero-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShokuTero-Info.plist"; sourceTree = "<group>"; };
+		20151C27188D70C9007EAE73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		20151C29188D70C9007EAE73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20151C2B188D70C9007EAE73 /* ShokuTero-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShokuTero-Prefix.pch"; sourceTree = "<group>"; };
+		20151C2C188D70C9007EAE73 /* STOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STOAppDelegate.h; sourceTree = "<group>"; };
+		20151C2D188D70C9007EAE73 /* STOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STOAppDelegate.m; sourceTree = "<group>"; };
+		20151C30188D70C9007EAE73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20151C32188D70C9007EAE73 /* STOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STOViewController.h; sourceTree = "<group>"; };
+		20151C33188D70C9007EAE73 /* STOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STOViewController.m; sourceTree = "<group>"; };
+		20151C35188D70C9007EAE73 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		20151C3B188D70C9007EAE73 /* ShokuTeroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShokuTeroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20151C3C188D70C9007EAE73 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		20151C44188D70C9007EAE73 /* ShokuTeroTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShokuTeroTests-Info.plist"; sourceTree = "<group>"; };
+		20151C46188D70C9007EAE73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		20151C48188D70C9007EAE73 /* ShokuTeroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShokuTeroTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20151C17188D70C9007EAE73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20151C20188D70C9007EAE73 /* CoreGraphics.framework in Frameworks */,
+				20151C22188D70C9007EAE73 /* UIKit.framework in Frameworks */,
+				20151C1E188D70C9007EAE73 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20151C38188D70C9007EAE73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20151C3D188D70C9007EAE73 /* XCTest.framework in Frameworks */,
+				20151C3F188D70C9007EAE73 /* UIKit.framework in Frameworks */,
+				20151C3E188D70C9007EAE73 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20151C11188D70C8007EAE73 = {
+			isa = PBXGroup;
+			children = (
+				20151C23188D70C9007EAE73 /* ShokuTero */,
+				20151C42188D70C9007EAE73 /* ShokuTeroTests */,
+				20151C1C188D70C9007EAE73 /* Frameworks */,
+				20151C1B188D70C9007EAE73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20151C1B188D70C9007EAE73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20151C1A188D70C9007EAE73 /* ShokuTero.app */,
+				20151C3B188D70C9007EAE73 /* ShokuTeroTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20151C1C188D70C9007EAE73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20151C1D188D70C9007EAE73 /* Foundation.framework */,
+				20151C1F188D70C9007EAE73 /* CoreGraphics.framework */,
+				20151C21188D70C9007EAE73 /* UIKit.framework */,
+				20151C3C188D70C9007EAE73 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20151C23188D70C9007EAE73 /* ShokuTero */ = {
+			isa = PBXGroup;
+			children = (
+				20151C2C188D70C9007EAE73 /* STOAppDelegate.h */,
+				20151C2D188D70C9007EAE73 /* STOAppDelegate.m */,
+				20151C2F188D70C9007EAE73 /* Main.storyboard */,
+				20151C32188D70C9007EAE73 /* STOViewController.h */,
+				20151C33188D70C9007EAE73 /* STOViewController.m */,
+				20151C35188D70C9007EAE73 /* Images.xcassets */,
+				20151C24188D70C9007EAE73 /* Supporting Files */,
+			);
+			path = ShokuTero;
+			sourceTree = "<group>";
+		};
+		20151C24188D70C9007EAE73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20151C25188D70C9007EAE73 /* ShokuTero-Info.plist */,
+				20151C26188D70C9007EAE73 /* InfoPlist.strings */,
+				20151C29188D70C9007EAE73 /* main.m */,
+				20151C2B188D70C9007EAE73 /* ShokuTero-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20151C42188D70C9007EAE73 /* ShokuTeroTests */ = {
+			isa = PBXGroup;
+			children = (
+				20151C48188D70C9007EAE73 /* ShokuTeroTests.m */,
+				20151C43188D70C9007EAE73 /* Supporting Files */,
+			);
+			path = ShokuTeroTests;
+			sourceTree = "<group>";
+		};
+		20151C43188D70C9007EAE73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20151C44188D70C9007EAE73 /* ShokuTeroTests-Info.plist */,
+				20151C45188D70C9007EAE73 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20151C19188D70C9007EAE73 /* ShokuTero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20151C4C188D70C9007EAE73 /* Build configuration list for PBXNativeTarget "ShokuTero" */;
+			buildPhases = (
+				20151C16188D70C9007EAE73 /* Sources */,
+				20151C17188D70C9007EAE73 /* Frameworks */,
+				20151C18188D70C9007EAE73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShokuTero;
+			productName = ShokuTero;
+			productReference = 20151C1A188D70C9007EAE73 /* ShokuTero.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20151C3A188D70C9007EAE73 /* ShokuTeroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20151C4F188D70C9007EAE73 /* Build configuration list for PBXNativeTarget "ShokuTeroTests" */;
+			buildPhases = (
+				20151C37188D70C9007EAE73 /* Sources */,
+				20151C38188D70C9007EAE73 /* Frameworks */,
+				20151C39188D70C9007EAE73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20151C41188D70C9007EAE73 /* PBXTargetDependency */,
+			);
+			name = ShokuTeroTests;
+			productName = ShokuTeroTests;
+			productReference = 20151C3B188D70C9007EAE73 /* ShokuTeroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20151C12188D70C8007EAE73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = STO;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = himara2;
+				TargetAttributes = {
+					20151C3A188D70C9007EAE73 = {
+						TestTargetID = 20151C19188D70C9007EAE73;
+					};
+				};
+			};
+			buildConfigurationList = 20151C15188D70C8007EAE73 /* Build configuration list for PBXProject "ShokuTero" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20151C11188D70C8007EAE73;
+			productRefGroup = 20151C1B188D70C9007EAE73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20151C19188D70C9007EAE73 /* ShokuTero */,
+				20151C3A188D70C9007EAE73 /* ShokuTeroTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20151C18188D70C9007EAE73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20151C36188D70C9007EAE73 /* Images.xcassets in Resources */,
+				20151C28188D70C9007EAE73 /* InfoPlist.strings in Resources */,
+				20151C31188D70C9007EAE73 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20151C39188D70C9007EAE73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20151C47188D70C9007EAE73 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20151C16188D70C9007EAE73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20151C34188D70C9007EAE73 /* STOViewController.m in Sources */,
+				20151C2A188D70C9007EAE73 /* main.m in Sources */,
+				20151C2E188D70C9007EAE73 /* STOAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20151C37188D70C9007EAE73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20151C49188D70C9007EAE73 /* ShokuTeroTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20151C41188D70C9007EAE73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20151C19188D70C9007EAE73 /* ShokuTero */;
+			targetProxy = 20151C40188D70C9007EAE73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20151C26188D70C9007EAE73 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20151C27188D70C9007EAE73 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		20151C2F188D70C9007EAE73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20151C30188D70C9007EAE73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20151C45188D70C9007EAE73 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20151C46188D70C9007EAE73 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20151C4A188D70C9007EAE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		20151C4B188D70C9007EAE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20151C4D188D70C9007EAE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShokuTero/ShokuTero-Prefix.pch";
+				INFOPLIST_FILE = "ShokuTero/ShokuTero-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		20151C4E188D70C9007EAE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShokuTero/ShokuTero-Prefix.pch";
+				INFOPLIST_FILE = "ShokuTero/ShokuTero-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		20151C50188D70C9007EAE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShokuTero.app/ShokuTero";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShokuTero/ShokuTero-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ShokuTeroTests/ShokuTeroTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		20151C51188D70C9007EAE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShokuTero.app/ShokuTero";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShokuTero/ShokuTero-Prefix.pch";
+				INFOPLIST_FILE = "ShokuTeroTests/ShokuTeroTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20151C15188D70C8007EAE73 /* Build configuration list for PBXProject "ShokuTero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20151C4A188D70C9007EAE73 /* Debug */,
+				20151C4B188D70C9007EAE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20151C4C188D70C9007EAE73 /* Build configuration list for PBXNativeTarget "ShokuTero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20151C4D188D70C9007EAE73 /* Debug */,
+				20151C4E188D70C9007EAE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		20151C4F188D70C9007EAE73 /* Build configuration list for PBXNativeTarget "ShokuTeroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20151C50188D70C9007EAE73 /* Debug */,
+				20151C51188D70C9007EAE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20151C12188D70C8007EAE73 /* Project object */;
+}
