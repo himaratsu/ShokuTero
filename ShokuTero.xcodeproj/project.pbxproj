@@ -21,6 +21,10 @@
 		20151C3F188D70C9007EAE73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20151C21188D70C9007EAE73 /* UIKit.framework */; };
 		20151C47188D70C9007EAE73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20151C45188D70C9007EAE73 /* InfoPlist.strings */; };
 		20151C49188D70C9007EAE73 /* ShokuTeroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20151C48188D70C9007EAE73 /* ShokuTeroTests.m */; };
+		20151C57188D73D6007EAE73 /* cat1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 20151C56188D73D6007EAE73 /* cat1.jpeg */; };
+		20151C59188D73E3007EAE73 /* cat2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20151C58188D73E3007EAE73 /* cat2.jpg */; };
+		20151C5D188D8A32007EAE73 /* frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 20151C5C188D8A32007EAE73 /* frame.png */; };
+		6127DBA00F264A779968AB7E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0F34DBA557C4270B5BB4363 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18DC8292AB4F4C7A9C9B63ED /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		20151C1A188D70C9007EAE73 /* ShokuTero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShokuTero.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20151C1D188D70C9007EAE73 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		20151C1F188D70C9007EAE73 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +58,10 @@
 		20151C44188D70C9007EAE73 /* ShokuTeroTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShokuTeroTests-Info.plist"; sourceTree = "<group>"; };
 		20151C46188D70C9007EAE73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		20151C48188D70C9007EAE73 /* ShokuTeroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShokuTeroTests.m; sourceTree = "<group>"; };
+		20151C56188D73D6007EAE73 /* cat1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat1.jpeg; sourceTree = "<group>"; };
+		20151C58188D73E3007EAE73 /* cat2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat2.jpg; sourceTree = "<group>"; };
+		20151C5C188D8A32007EAE73 /* frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame.png; sourceTree = "<group>"; };
+		B0F34DBA557C4270B5BB4363 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +72,7 @@
 				20151C20188D70C9007EAE73 /* CoreGraphics.framework in Frameworks */,
 				20151C22188D70C9007EAE73 /* UIKit.framework in Frameworks */,
 				20151C1E188D70C9007EAE73 /* Foundation.framework in Frameworks */,
+				6127DBA00F264A779968AB7E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +96,7 @@
 				20151C42188D70C9007EAE73 /* ShokuTeroTests */,
 				20151C1C188D70C9007EAE73 /* Frameworks */,
 				20151C1B188D70C9007EAE73 /* Products */,
+				18DC8292AB4F4C7A9C9B63ED /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +116,7 @@
 				20151C1F188D70C9007EAE73 /* CoreGraphics.framework */,
 				20151C21188D70C9007EAE73 /* UIKit.framework */,
 				20151C3C188D70C9007EAE73 /* XCTest.framework */,
+				B0F34DBA557C4270B5BB4363 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -118,6 +130,9 @@
 				20151C32188D70C9007EAE73 /* STOViewController.h */,
 				20151C33188D70C9007EAE73 /* STOViewController.m */,
 				20151C35188D70C9007EAE73 /* Images.xcassets */,
+				20151C5C188D8A32007EAE73 /* frame.png */,
+				20151C56188D73D6007EAE73 /* cat1.jpeg */,
+				20151C58188D73E3007EAE73 /* cat2.jpg */,
 				20151C24188D70C9007EAE73 /* Supporting Files */,
 			);
 			path = ShokuTero;
@@ -159,9 +174,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20151C4C188D70C9007EAE73 /* Build configuration list for PBXNativeTarget "ShokuTero" */;
 			buildPhases = (
+				42CFE0F793F84528B32DC8C9 /* Check Pods Manifest.lock */,
 				20151C16188D70C9007EAE73 /* Sources */,
 				20151C17188D70C9007EAE73 /* Frameworks */,
 				20151C18188D70C9007EAE73 /* Resources */,
+				9F59B34930EA488A817695AF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,8 +247,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				20151C36188D70C9007EAE73 /* Images.xcassets in Resources */,
+				20151C59188D73E3007EAE73 /* cat2.jpg in Resources */,
 				20151C28188D70C9007EAE73 /* InfoPlist.strings in Resources */,
+				20151C57188D73D6007EAE73 /* cat1.jpeg in Resources */,
 				20151C31188D70C9007EAE73 /* Main.storyboard in Resources */,
+				20151C5D188D8A32007EAE73 /* frame.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +264,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42CFE0F793F84528B32DC8C9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9F59B34930EA488A817695AF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		20151C16188D70C9007EAE73 /* Sources */ = {
@@ -376,6 +429,7 @@
 		};
 		20151C4D188D70C9007EAE73 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18DC8292AB4F4C7A9C9B63ED /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -389,6 +443,7 @@
 		};
 		20151C4E188D70C9007EAE73 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18DC8292AB4F4C7A9C9B63ED /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -461,6 +516,7 @@
 				20151C4E188D70C9007EAE73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20151C4F188D70C9007EAE73 /* Build configuration list for PBXNativeTarget "ShokuTeroTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +525,7 @@
 				20151C51188D70C9007EAE73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
